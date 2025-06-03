@@ -1,0 +1,47 @@
+/* base.css */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    flex: 2;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
