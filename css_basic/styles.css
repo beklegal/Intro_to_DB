@@ -29,3 +29,44 @@ aside {
   padding: 10px;
   background-color: #eaeaea;
 }
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #357ab8;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-right: 15px;
+}
+
+article {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside {
+  background-color: #e8f0fe;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #4a90e2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
