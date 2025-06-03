@@ -45,3 +45,13 @@ header ul li a {
     color: white;
     text-decoration: none;
 }
+@media only screen and (max-width: 768px) {
+  .works_on_smartphone main {
+    flex-direction: column;
+  }
+
+  .works_on_smartphone article,
+  .works_on_smartphone aside {
+    flex: auto;
+  }
+}
